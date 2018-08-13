@@ -1,0 +1,11 @@
+.type-out {
+  font-family: monospace, sans-serif; }
+  .type-out span {
+    -webkit-transition: opacity ease 200ms;
+    transition: opacity ease 200ms; }
+  .type-out .hide {
+    opacity: 0; }
+  .type-out .show {
+    opacity: 1; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIl9leGFtcGxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQyxtQ0FBa0MsRUFhbEM7RUFkRDtJQUlFLHVDQUE4QjtJQUE5QiwrQkFBOEIsRUFDOUI7RUFMRjtJQVFFLFdBQVUsRUFDVjtFQVRGO0lBWUUsV0FBVSxFQUNWIiwiZmlsZSI6InR5cGVvdXQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnR5cGUtb3V0IHtcblx0Zm9udC1mYW1pbHk6IG1vbm9zcGFjZSwgc2Fucy1zZXJpZjtcblxuXHRzcGFuIHtcblx0XHR0cmFuc2l0aW9uOiBvcGFjaXR5IGVhc2UgMjAwbXM7XG5cdH1cblxuXHQuaGlkZSB7XG5cdFx0b3BhY2l0eTogMDtcblx0fVxuXG5cdC5zaG93IHtcblx0XHRvcGFjaXR5OiAxO1xuXHR9XG59XG4iXX0= */

@@ -1,0 +1,15 @@
+.type-out {
+	font-family: monospace, sans-serif;
+
+	span {
+		transition: opacity ease 200ms;
+	}
+
+	.hide {
+		opacity: 0;
+	}
+
+	.show {
+		opacity: 1;
+	}
+}
