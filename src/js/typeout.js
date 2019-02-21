@@ -34,6 +34,5 @@ var TypeOut = function (config) {
 };
 
 // return as a require.js module
-if (typeof module !== 'undefined') {
-	exports = module.exports = TypeOut;
-}
+if (typeof define != 'undefined') define(['typeout'], function () { return TypeOut });
+if (typeof module != 'undefined') module.exports = TypeOut;
