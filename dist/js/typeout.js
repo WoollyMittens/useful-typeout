@@ -34,9 +34,8 @@ var TypeOut = function (config) {
 };
 
 // return as a require.js module
-if (typeof module !== 'undefined') {
-	exports = module.exports = TypeOut;
-}
+if (typeof define != 'undefined') define([], function () { return TypeOut });
+if (typeof module != 'undefined') module.exports = TypeOut;
 
 // extend the class
 TypeOut.prototype.Main = function(config, context) {
